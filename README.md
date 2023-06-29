@@ -12,5 +12,5 @@
 #### 使用说明
 
 1.  temple文件夹为模板文件，可以更改成项目名称，示例代码可以随便修改
-2.  尽量不要动makefile文件
+2.  尽量不要动makefile文件，如果添加了新的cpp文件，请在makefile第一行加上文件名.o
 3.  windows编译更为复杂，可以用-I指定头文件目录，-L指定库文件目录，-l加载库，但是Windows需要额外加载opengl32，gdi32，winmm三个库
