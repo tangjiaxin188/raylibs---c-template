@@ -1,4 +1,4 @@
-OBJS = main.o
+OBJS = main.o tem.o
 CC = g++
 CFLAGS += -std=c++11
 CROOT = src/
