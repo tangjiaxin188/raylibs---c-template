@@ -3,35 +3,14 @@
 #### 介绍
 可以用这个简单的模板来写C++的raylib程序，确保你已经安装了raylib,如果没有，请在github上下载，并使用make安装。
 
-#### 软件架构
-软件架构说明
-
-
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  安装make,gcc
+2.  进入src文件，依次输入make PLATFORM=PLATFORM_DESKTOP,运行完毕后输入sudo（linux环境下加上) make install
+3.  进入temple文件夹（修改成自己需要的项目名称），输入make进行测试，成功生成可执行文件即为完成
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  temple文件夹为模板文件，可以更改成项目名称，示例代码可以随便修改
+2.  尽量不要动makefile文件
+3.  src为raylib官方文件，可以自行下载官方仓库使用。
