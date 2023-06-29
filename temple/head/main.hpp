@@ -1,0 +1,9 @@
+#ifndef mainhok
+#define mainhok
+//////////////////start
+
+
+
+
+//////////////////end
+#endif
