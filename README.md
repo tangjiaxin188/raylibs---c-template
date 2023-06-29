@@ -6,7 +6,7 @@
 #### 安装教程
 
 1.  安装make,gcc
-2.  进入src文件，依次输入make PLATFORM=PLATFORM_DESKTOP,运行完毕后输入sudo（linux环境下加上) make install
+2.  进入主目录的src文件，依次输入make PLATFORM=PLATFORM_DESKTOP,运行完毕后输入sudo（linux环境下加上) make install
 3.  进入temple文件夹（修改成自己需要的项目名称），输入make进行测试，成功生成可执行文件即为完成
 
 #### 使用说明
