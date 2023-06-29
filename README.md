@@ -1,12 +1,12 @@
 # raylib的C++模板
 
 #### 介绍
-可以用这个简单的模板来写C++的raylib程序，确保你已经安装了raylib,如果没有，请在github上下载，并使用make安装。
+可以用这个简单的模板来写C++的raylib程序，目前仅能在直接linux上使用。
 
 #### 安装教程
 
 1.  安装make,gcc
-2.  进入主目录的src文件，依次输入make PLATFORM=PLATFORM_DESKTOP,运行完毕后输入sudo（linux环境下加上) make install，windows需要以管理员身份运行cmd
+2.  进入主目录的src文件，依次输入make PLATFORM=PLATFORM_DESKTOP,运行完毕后输入sudo make install
 3.  进入temple文件夹（修改成自己需要的项目名称），输入make进行测试，成功生成可执行文件即为完成
 
 #### 使用说明
