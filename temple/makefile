@@ -1,4 +1,4 @@
 cmakedo:
-	cd build && cmake .. && make && mv ./mygame .. && cd ..
+	mkdir build && cd build && cmake .. && make && mv ./mygame .. && cd ..
 clean:
 	rm mygame && rm -rf ./build/* 
