@@ -1,6 +1,6 @@
 #include <raylib.h>
 //#include <raymath.h>
-#include "../head/tem.hpp"
+#include "tem.hpp"
 
 int main(void)
 {

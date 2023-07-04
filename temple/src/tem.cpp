@@ -1,5 +1,5 @@
 #include <raylib.h>
-#include "../head/tem.hpp"
+#include "tem.hpp"
 
 void thestartwindow::tem(){
 
