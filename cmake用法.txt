@@ -1,0 +1,12 @@
+ set(名称 值) 用来设置变量。
+ ${}取变量值
+cmake_minimum_required(VERSION 版本号 报错内容（可不写）)
+project(工程名称 工程语言（可不写）)
+include_directories(头文件路径 头文件路径2 ...)
+link_directories(同include)
+add_library(库名 类型（SHARED动态/STATIC静态/MODULE）文件地址)
+add_compile_options(编译时的参数 -c,-std等)
+add_executable(可执行文件名 文件...)
+target_link_libraries(可执行文件名 库名)
+add_subdirectory(存放源文件的子目录，确保目录里有cmakelists文件)
+aux_source_directory(目录 变量名) 把文件夹内所有文件转换成变量
